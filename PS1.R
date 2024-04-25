@@ -2,7 +2,7 @@ rm(list=ls())
 
 # QUESTION 1
 
-jobdata <- read.csv(file.choose())
+jobdata <- read.csv(file.choose()) # Choose Job Training data
 library(stargazer)
 stargazer(jobdata, type = "text", title = "Summary Statistics",digits = 2)
 
