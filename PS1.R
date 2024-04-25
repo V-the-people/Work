@@ -1,12 +1,9 @@
 rm(list=ls())
 
-# QUESTION 1
 
 jobdata <- read.csv(file.choose()) # Choose Job Training data
 library(stargazer)
 stargazer(jobdata, type = "text", title = "Summary Statistics",digits = 2)
-
-#QUESTION 2 
 
  
 ''' a) A study aims to investigate whether the average earnings in 1998 differ from $10,000. Formulate the appropriate
@@ -71,7 +68,7 @@ stargazer(model6,type = "text")
 
 ''' earnings = 3257 + 608(educ)  ; is the estimated linear regression'''
 
-''' g) After conducting regression analyses, researchers often examine the relationship between the fitted values
+''' h) After conducting regression analyses, researchers often examine the relationship between the fitted values
 and residuals to detect potential issues such as heteroskedasticity. Perform a diagnostic analysis by plotting
 the fitted values against the residuals for the regression model of earnings in 1998 on education level. Is
 there presence of heteroskedasticity? Why or why not?'''
