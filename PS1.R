@@ -33,7 +33,6 @@ t.test(unem98 ~ married, data = jobdata, conf.level = 0.95)
 
 
 
-
 ''' e) Perform a regression analysis to explore the relationship between earnings in 1998 (in $1000) and education
 level.'''
 
