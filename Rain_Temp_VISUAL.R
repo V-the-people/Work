@@ -3,7 +3,7 @@ library(dplyr)
 library(reshape2)
 library(gganimate)
 
-file<-read.csv(file.choose())
+file<-read.csv(file.choose())  # rain_tmep.csv, uploaded in the main window
 Avg_temp<-file$Avg_mean
 
 # rain$mean_ann_rain<- apply(rain[,-1], 1, function(x) mean(x, na.rm=TRUE))
